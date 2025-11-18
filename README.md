@@ -12,34 +12,34 @@ React frontend for user interaction - Python backend for agent logic
 ## 📂 Repository Structure
 
     .
-├── Backend/                          # Python backend (agent, RAG, token server)
-│   ├── agent.py                      # LiveKit agent entrypoint (AgentSession + tools)
-│   ├── .env                          # Backend environment variables (local only)
-│   ├── requirements.txt              # Python deps
-│   ├── Tokens_generator/             # Simple token service for frontend
-│   │   └── server.py                 # Flask endpoint: /getToken
-│   └── Rag/                          # RAG pipeline and built index
-│       ├── Rag.py                    # Retrieval API used by agent
-│       ├── rag_faiss.index           # FAISS index (binary)
-│       ├── rag_chunks.pkl            # Serialized text chunks (used by rag.py)
-│       ├── Build_Rag/                # RAG build utilities
-│       │   └── Build_Rag.py
-│       └── data/                     # Source documents for RAG (pdfs, txt)
-│           └── Voice Agent Task.pdf
-│
-├── livekit-frontend/                 # React frontend (LiveKit client)
-│   ├── package.json
-│   ├── public/
-│   └── src/
-│       ├── App.js
-|       .    
-│       .               
-│       .                
-│       └── setupTests.js                      
-| 
-├── demo/                             
-│   └── demo.mp4           
-└── README.md
+    ├── Backend/                          # Python backend (agent, RAG, token server)
+    │   ├── agent.py                      # LiveKit agent entrypoint (AgentSession + tools)
+    │   ├── .env                          # Backend environment variables (local only)
+    │   ├── requirements.txt              # Python deps
+    │   ├── Tokens_generator/             # Simple token service for frontend
+    │   │   └── server.py                 # Flask endpoint: /getToken
+    │   └── Rag/                          # RAG pipeline and built index
+    │       ├── Rag.py                    # Retrieval API used by agent
+    │       ├── rag_faiss.index           # FAISS index (binary)
+    │       ├── rag_chunks.pkl            # Serialized text chunks (used by rag.py)
+    │       ├── Build_Rag/                # RAG build utilities
+    │       │   └── Build_Rag.py
+    │       └── data/                     # Source documents for RAG (pdfs, txt)
+    │           └── Voice Agent Task.pdf
+    │
+    ├── livekit-frontend/                 # React frontend (LiveKit client)
+    │   ├── package.json
+    │   ├── public/
+    │   └── src/
+    │       ├── App.js
+    |       .    
+    │       .               
+    │       .                
+    │       └── setupTests.js                      
+    | 
+    ├── demo/                             
+    │   └── demo.mp4           
+    └── README.md
 
 ## ⚙️ Setup Instructions
 
@@ -117,3 +117,4 @@ RAG retrieval is injected via a function tool exposed to Gemini.
 
 Check: - NLTK installation - Environment variables - FAISS path -
 LiveKit server URL
+
