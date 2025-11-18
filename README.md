@@ -105,7 +105,7 @@ React frontend for user interaction - Python backend for agent logic
 
 ## 🎥 Demo Video URL
 
-https://drive.google.com/file/d/1DyYn3k2J2ANDkbzu8TPd7RYgEJxUJsBb/view?usp=sharing
+[Video](https://drive.google.com/file/d/1fpSOGNFVXrCqyEgFr4jkpGMeexRSkIrn/view?usp=sharing)
 
 ## 🧾 RAG + Gemini Integration
 
@@ -123,6 +123,7 @@ RAG retrieval is injected via a function tool exposed to Gemini.
 
 Check: - NLTK installation - Environment variables - FAISS path -
 LiveKit server URL
+
 
 
 
