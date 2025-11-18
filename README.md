@@ -36,9 +36,7 @@ React frontend for user interaction - Python backend for agent logic
     │       .               
     │       .                
     │       └── setupTests.js                      
-    | 
-    ├── demo/                             
-    │   └── demo.mp4           
+    |           
     └── README.md
 
 ## ⚙️ Setup Instructions
@@ -117,4 +115,5 @@ RAG retrieval is injected via a function tool exposed to Gemini.
 
 Check: - NLTK installation - Environment variables - FAISS path -
 LiveKit server URL
+
 
