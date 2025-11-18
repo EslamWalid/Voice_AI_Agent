@@ -111,10 +111,19 @@ https://drive.google.com/file/d/1DyYn3k2J2ANDkbzu8TPd7RYgEJxUJsBb/view?usp=shari
 
 RAG retrieval is injected via a function tool exposed to Gemini.
 
+
+## Resources helped me
+[Voice AI quickstart](https://docs.livekit.io/agents/start/voice-ai/)
+[React Client SDK](https://github.com/livekit/client-sdk-js)
+[liveKit tools](https://docs.livekit.io/agents/build/tools/)
+[tokens generator](https://docs.livekit.io/home/server/generating-tokens/)
+
+
 ## 🙋 Support
 
 Check: - NLTK installation - Environment variables - FAISS path -
 LiveKit server URL
+
 
 
 
